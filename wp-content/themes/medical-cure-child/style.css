@@ -1,0 +1,15 @@
+/*
+ Theme Name:   Medical Cure Child Theme
+ Theme URI:    https://themeforest.net/user/Code125?ref=code125
+ Description:  Medical Cure is a Premium Medical WordPress Theme handcrafted for building elegant and up-to-date website.
+ Author:       Code125
+ Author URI:   https://code125.com
+ Template:     medical-cure
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         medical, health, clinic, dental, appointments, subscribe, newsletter, page builder,  cosmetics, doctor, nurse, pharmacy
+ Text Domain:  medical-cure-child
+*/
+
+@import url('../medical-cure/style.css');
