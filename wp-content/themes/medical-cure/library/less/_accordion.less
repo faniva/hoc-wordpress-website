@@ -1,0 +1,161 @@
+//Toggle
+.c5-toggle-single{
+    border: 1px solid #ddd;
+    position: relative;
+    display: block;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    .transition();
+    &.current{
+        .c5-toggle-tab{
+            .c5-tabs-plus-minus{
+                .fa-minus{
+                    display: inline;
+                }
+                .fa-plus{
+                    display: none;
+                }
+            }
+        }
+        .c5-pane{
+            display: block;
+        }
+    }
+    &.current, &:hover{
+        background: #f1f6fa;
+    }
+    .c5-toggle-tab{
+        line-height: 1;
+        padding: 2.2rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+        .transition();
+        .c5-tabs-plus-minus{
+            float: right;
+            .fa-minus{
+                display: none;
+            }
+        }
+        .c5-icon{
+            margin-right: 0.5rem;
+        }
+    }
+    .c5-pane{
+        display: none;
+        padding: 0rem 2.2rem 0.7rem;
+    }
+}
+//According
+
+.c5-layout-light{
+    margin-bottom: 3rem;
+    .c5-accordion-single{
+        .c5-accordion-tab{
+            line-height: 1;
+            padding: 2.2rem;
+            font-size: 1.5rem;
+            border: 1px solid #e9ebef;
+            border-bottom: none;
+            cursor: pointer;
+            .transition();
+            &.current, &:hover{
+                background: #f1f6fa;
+                border-bottom: none;
+            }
+            &.current{
+                .c5-tabs-plus-minus{
+
+                    .fa-minus{
+                        display: inline;
+                    }
+                    .fa-plus{
+                        display: none;
+                    }
+                }
+            }
+            .c5-tabs-plus-minus{
+                float: right;
+                .fa-minus{
+                    display: none;
+                }
+            }
+        }
+        .c5-pane{
+            padding: 0 2.7rem 2.2rem;
+            border: 1px solid #ddd;
+            border-bottom: none;
+            border-top: none;
+            background: #f1f6fa;
+        }
+        &:last-child{
+            .c5-accordion-tab{
+                border-bottom: 1px solid #ddd;
+                &.current{
+                    border-bottom: none;
+                }
+            }
+            .c5-pane{
+                border-bottom: 1px solid #ddd;
+            }
+        }
+        .c5-icon{
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+
+.c5-layout-normal{
+    margin-bottom: 3rem;
+    .c5-accordion-single{
+        .c5-accordion-tab{
+            line-height: 1;
+            font-size: 1.5rem;
+            padding: 2.2rem;
+            border: 1px solid #ddd;
+            border-bottom: none;
+            cursor: pointer;
+            .transition();
+            &.current, &:hover{
+                background: @accentColor;
+                color: white;
+            }
+            &.current{
+                .c5-tabs-plus-minus{
+
+                    .fa-minus{
+                        display: inline;
+                    }
+                    .fa-plus{
+                        display: none;
+                    }
+                }
+            }
+            .c5-tabs-plus-minus{
+                float: right;
+                .fa-minus{
+                    display: none;
+                }
+            }
+        }
+        .c5-pane{
+            padding: 2.2rem;
+            border: 1px solid #ddd;
+            border-bottom: none;
+        }
+        &:last-child{
+            .c5-accordion-tab{
+                border-bottom: 1px solid #ddd;
+                &.current{
+                    border-bottom: none;
+                }
+            }
+            .c5-pane{
+                border-bottom: 1px solid #ddd;
+            }
+        }
+        .c5-icon{
+            margin-right: 0.5rem;
+        }
+    }
+}

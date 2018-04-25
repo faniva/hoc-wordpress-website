@@ -1,0 +1,28 @@
+
+.c5-post-pagination,
+.c5-pagination-article {
+    margin-bottom: 3rem;
+    li {
+        display: inline-block;
+        & > a , & > span{
+            width: 4rem;
+            height: 4rem;
+            text-align: center;
+            line-height: 4rem;
+            display: block;
+            background: #fff;
+            border: 0.1rem solid #ececec;
+            border-radius: 2px;
+            .transition();
+            &:hover,
+            &.current {
+                background: #bec4c9;
+            }
+            &.page-links-title{
+                width: auto;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+}

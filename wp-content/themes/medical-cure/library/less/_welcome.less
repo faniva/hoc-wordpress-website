@@ -1,0 +1,188 @@
+
+.c5-welcome-sec {
+
+     .c5-btn-color-a {
+        padding: 1rem 3rem;
+    }
+}
+
+.c5-welcome-sec-2 {
+    padding-bottom: 0;
+
+
+    .c5-item-con {
+        margin-bottom: 4rem;
+
+        .c5-item-icon,
+        .c5-item-data {
+            display: table-cell;
+            vertical-align: top;
+        }
+        .c5-item-icon {
+            padding-right: 2.5rem;
+
+            span {
+                font-size: 2.4rem;
+                .transition(.2s);
+            }
+        }
+        .c5-item-data {
+
+            h6 {
+                position: relative;
+                // text-transform: uppercase;
+                margin-bottom: 2.5rem;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: -1.5rem;
+                    left: 0;
+                    width: 3rem;
+                    height: 0.2rem;
+                    background: @accentColor;
+                    -webkit-transition: all .2s ease-in-out;
+                    -o-transition: all .2s ease-in-out;
+                    transition: all .2s ease-in-out;
+                }
+            }
+            p {
+
+                margin-bottom: 1rem;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            .c5-item-icon {
+                span {
+                    color: @accentColor;
+
+                }
+            }
+            .c5-item-data {
+                h6 {
+                    &:after {
+                        width: 8rem;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .c5-welcome-appointment {
+        padding-bottom: 0;
+
+
+
+        input,textarea,select {
+            border: 0.1rem solid @headingDarkGray;
+            margin-bottom: 2rem;
+
+            &::-webkit-input-placeholder {
+                color: @lightGrayColor;
+                text-transform: lowercase;
+            }
+
+            &:-ms-input-placeholder {
+                color: @lightGrayColor;
+                text-transform: lowercase;
+            }
+
+            &::-moz-placeholder { // Firefox 19+ /
+                color: @lightGrayColor;
+                text-transform: lowercase;
+                opacity: 1;
+            }
+
+            &:-moz-placeholder { // Firefox 18- /
+                color: @lightGrayColor;
+                text-transform: lowercase;
+                opacity: 1;
+            }
+        }
+
+        .c5-app-select {
+            position: relative;
+
+            &:after {
+                content:"\f078";
+                font-family:'FontAwesome';
+                position: absolute;
+                top: 0.8rem;
+                right: 1rem;
+                z-index: 5;
+                color: @lightColor;
+            }
+            select {
+                -webkit-appearance: none;
+                -ms-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background-color: transparent;
+                position: relative;
+                cursor: pointer;
+                z-index: 10;
+            }
+        }
+
+        .checkbox {
+            margin: 0 0 2rem;
+            input {
+                width: 2rem;
+                top: 0.6rem;
+                left: 2rem;
+            }
+            label {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.c5-welcome-3 {
+    position: relative;
+    .row {
+        margin: 0;
+        .col-md-6 {
+            padding: 0;
+            background: @lightColor;
+        }
+    }
+
+
+    .c5-welcome-img {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        min-height: 57rem;
+        max-height: 57rem;
+    }
+    .c5-welcome-data {
+        padding: 8rem 3rem 2.5rem 4rem;
+        max-width: 55rem;
+        min-height: 57rem;
+    }
+
+
+    .c5-text-box {
+        p {
+
+
+        }
+    }
+}
+    .c5-menu-check {
+        li {
+
+            display: flex;
+
+            &:before {
+                content: '\f00c';
+                font: normal normal normal 1.4rem/1 FontAwesome;
+                padding-right: 1rem;
+                color: @accentColor;
+                margin-top: 0.6rem;
+            }
+        }
+    }

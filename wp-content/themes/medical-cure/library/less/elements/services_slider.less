@@ -1,0 +1,173 @@
+.code125-service-slides-layout-1{
+    margin-bottom: 3rem;
+    .code125-service-slides-controls{
+        margin-right: -3rem;
+        margin-bottom: 3rem;
+        .slick-next, .slick-prev{
+            position: absolute;
+            height: 100%;
+            top: 0;
+            width: 3rem;
+            padding: 0;
+            background: #fff;
+            border: 1px solid #ddd;
+            color: #666;
+        }
+        .slick-next{
+            right: -1rem;
+        }
+        .slick-prev{
+            left: -4rem;
+        }
+        .code125-service-slide-control{
+            display: block;
+            position: relative;
+            text-align: center;
+            border: 1px solid #e1e4e8;
+            margin-right: 3rem;
+            padding: 3rem;
+            background: #fff;
+            cursor: pointer;
+            color: @accentColor;
+            .transition();
+            &:before{
+                opacity: 0;
+                visibility: hidden;
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                z-index: 9;
+                border-bottom: 10px solid #fff;
+                position: absolute;
+                bottom: -1px;
+                left: ~"calc(50% - 5px)";
+                .transition();
+            }
+            &:after{
+                opacity: 0;
+                visibility: hidden;
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+
+                border-bottom: 12px solid @accentColor;
+                position: absolute;
+                bottom: -1px;
+                left: ~"calc(50% - 7px)";
+                .transition();
+            }
+            &:hover, &.slick-current{
+
+                border-color: @accentColor;
+                &:before, &:after{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            .c5-icon{
+                font-size: 64px;
+                line-height: 1;
+                display: block;
+                margin: auto;
+            }
+            .text{
+                font-size: 1.8rem;
+                display: block;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.code125-service-slides-layout-2{
+    margin-right: -3rem;
+    margin-bottom: 3rem;
+    .code125-service-slides-controls{
+        width: ~"calc(25% - 3rem)";
+        float: left;
+        padding: 2rem 2rem 8rem;
+        border: 1px solid #e1e4e8;
+        .slick-next, .slick-prev{
+            width: 4.5rem;
+            height: 4rem;
+            display: block;
+            position: absolute;
+            bottom: -5rem;
+        }
+        .slick-next{
+            left: 5.5rem;
+        }
+        .slick-prev{
+            left: 0rem;
+        }
+        h3{
+            font-size: 2.6rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+        .code125-service-slide-control{
+            display: block;
+            position: relative;
+            cursor: pointer;
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            line-height: 1;
+            .transition();
+            &:hover, &.slick-current{
+                color: @accentColor;
+            }
+            .c5-icon{
+                color: @accentColor;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .code125-service-slides-content{
+        width: 75%;
+        float: left;
+        margin-left: 3rem;
+        .code125-service-slide-content{
+            margin-right: 3rem;
+        }
+    }
+}
+
+
+.code125-banners-carousel{
+    margin-right: -3rem;
+    position: relative;
+    display: block;
+    &:hover{
+        .slick-next{
+            right: -2.5rem;
+            opacity: 1;
+        }
+        .slick-prev{
+            left: -5.5rem;
+            opacity: 1;
+        }
+    }
+    .slick-next, .slick-prev{
+        width: 4.5rem;
+        height: 4rem;
+        display: block;
+        position: absolute;
+        top: ~"calc(50% - 2rem)";
+        opacity: 0;
+        .transition();
+    }
+    .slick-next{
+        right: -10rem;
+    }
+    .slick-prev{
+        left: -10rem;
+    }
+    .code125-banners-carousel-single{
+        margin-right: 3rem;
+    }
+}

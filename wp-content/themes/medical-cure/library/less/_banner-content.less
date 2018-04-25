@@ -1,0 +1,362 @@
+.code125-banner-content{
+    position: relative;
+    display: block;
+    font-size: 1.6rem;
+    .transition();
+    &.code125-banner-content-layout-text{
+        padding: 6rem 0;
+        max-width: 86rem;
+        margin: auto;
+        h4{
+            color: #93a7bd;
+            font-size: 2.4rem;
+        }
+        h3{
+            font-size: 4.8rem;
+            font-weight: 500;
+        }
+    }
+    &.code125-banner-content-layout-1{
+        padding: 9rem 0;
+        max-width: 86rem;
+        margin: auto;
+        h4{
+            font-size: 2.4rem;
+        }
+        h3{
+            font-size: 6.4rem;
+        }
+        .code125-banner-text{
+            opacity: 0.8;
+        }
+        .code125-banner-btn{
+            color: @accentColor;
+            background: #fff;
+            border: none;
+            margin-top: 0;
+            margin-bottom: 0;
+            &:hover{
+                background: @accentColor;
+                color: #fff;
+            }
+        }
+    }
+    &.code125-banner-content-layout-5{
+        padding: 4.5rem;
+        margin: 7.5rem auto;
+        background: @accentColor;
+        .code125-banner-btn{
+            color: @accentColor;
+            background: #fff;
+            &:hover{
+                background: @accentColor;
+                color: #fff;
+            }
+        }
+    }
+    &.code125-banner-content-layout-6{
+        padding: 4.5rem;
+        margin: 7.5rem auto;
+        background: #ECF1F8;
+    }
+    &.code125-banner-content-layout-2{
+        border-radius: 1rem;
+        background: #fff;
+        padding: 4.5rem;
+        margin: 7.5rem auto;
+        .code125-banner-btn{
+            background: @accentColor;
+            color: #fff;
+            position: absolute;
+            margin: 0;
+            left: 3rem;
+            bottom: -2rem;
+            height: 4rem;
+            padding: 0 3rem;
+            line-height: 4rem;
+            &:hover{
+                color: @accentColor;
+                background: #fff;
+                border-color: #fff;
+            }
+        }
+        .code125-banner-text{
+            margin-bottom: 0;
+        }
+    }
+    &.code125-banner-content-layout-3{
+        border: none;
+        background: #fff;
+        padding: 3rem 4rem 0;
+        border-radius: 0.4rem;
+        font-size: 1.4rem;
+        margin: 9rem auto;
+        overflow: hidden;
+        .code125-banner-btn{
+            display: block;
+            border-radius: 0;
+            margin: 0 -4rem;
+            text-align: center;
+            color: @accentColor;
+            border: none;
+            background: #e7f3fb;
+            padding: 1.6rem;
+            &:hover{
+                background: @accentColor;
+                color: #e7f3fb;
+            }
+        }
+    }
+    &.code125-banner-content-layout-4{
+        h4{
+            font-size: 2.4rem;
+        }
+        h3{
+            font-size: 4.8rem;
+            font-weight: 500;
+        }
+    }
+
+    &.code125-banner-content-layout-7{
+        padding: 12rem 0;
+        max-width: 96rem;
+        width: 100%;
+        margin: auto;
+        h4{
+            font-size: 2.4rem;
+        }
+        h3{
+            font-size: 6.4rem;
+        }
+    }
+    .fa{
+        color: inherit;
+    }
+    h3{
+        font-weight: 500;
+        font-size: 4.2rem;
+    }
+    p{
+        color: inherit;
+        font-size: inherit;
+    }
+    .code125-banner-text{
+        margin-bottom: 2.5rem;
+        color: inherit;
+    }
+    ul{
+        margin-bottom: 1.5rem;
+        font-size: inherit;
+        li{
+            padding-left: 2rem;
+            margin-bottom: 0.5rem;
+            .fa{
+                margin-left: -2rem;
+                width: 2rem;
+            }
+        }
+    }
+    .code125-banner-btn{
+        display: inline-block;
+        padding: 2rem 2.8rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        font-size: 1.2rem;
+        border-radius: 0.3rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        text-transform: uppercase;
+        background: @accentColor;
+        color: #fff;
+        .transition();
+        .fa{
+            margin-left: 0.5rem;
+            margin-right: 0;
+        }
+        &:hover{
+            color: @accentColor;
+            background :#fff;
+        }
+    }
+
+    &.code125-banner-content-animation-on{
+        opacity: 0;
+        h3,h4,a.code125-banner-btn, .code125-banner-text{
+            opacity: 0;
+        }
+        h4{
+            .animation-delay(0.2s);
+        }
+        h3{
+            .animation-delay(0.4s);
+        }
+        .code125-banner-text{
+            .animation-delay(0.6s);
+        }
+        a.code125-banner-btn{
+            .animation-delay(0.8s);
+        }
+    }
+
+    &.code125-banner-content-align-left{
+        text-align: left;
+    }
+    &.code125-banner-content-align-center{
+        text-align: center;
+    }
+    &.code125-banner-content-align-right{
+        text-align: right;
+    }
+
+    &.code125-banner-content-size-big{
+        h4{
+            font-size: 3.6rem;
+            line-height: 1;
+            font-weight: 500;
+        }
+        h3{
+            font-size: 6.5rem;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+.c5-light-background{
+    .code125-banner-content{
+        h4{
+
+        }
+    }
+}
+.c5-dark-background{
+    .code125-banner-content{
+        h4{
+            color: inherit;
+        }
+    }
+}
+.code125-banner-in-view{
+    .code125-banner-content.code125-banner-content-animation-on{
+        .animation-name(CONTENT-SLIDING);
+        .animation-duration(0.5s);
+        .animation-timing-function(ease-in-out);
+        .animation-fill-mode(forwards);
+        h3,h4,a.code125-banner-btn, .code125-banner-text{
+            .animation-name(CONTENT-SLIDING);
+            .animation-duration(0.5s);
+            .animation-timing-function(ease-in-out);
+            .animation-fill-mode(forwards);
+        }
+        &.code125-banner-content-align-center{
+            .animation-name(CONTENT-SLIDING-TOP);
+            h3,h4,a.code125-banner-btn, .code125-banner-text{
+                .animation-name(CONTENT-SLIDING-TOP);
+            }
+        }
+    }
+}
+.c5-dark-background{
+    .code125-banner-content{
+        &.code125-banner-content-layout-plain , &.code125-banner-content-layout-4{
+            .code125-banner-btn{
+                background: #fff;
+                color: @accentColor;
+                &:hover{
+                    background: @accentColor;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+
+.CONTENT-SLIDING-TOP(){
+    0%   {
+        opacity: 0;
+        .translate(0, -3rem);
+    }
+    100% {
+        opacity: 1;
+        .translate(0, 0);
+    }
+}
+@-webkit-keyframes CONTENT-SLIDING-TOP {
+    .CONTENT-SLIDING-TOP();
+}
+@-moz-keyframes CONTENT-SLIDING-TOP {
+    .CONTENT-SLIDING-TOP();
+}
+@-o-keyframes CONTENT-SLIDING-TOP {
+    .CONTENT-SLIDING-TOP();
+}
+@keyframes CONTENT-SLIDING-TOP {
+    .CONTENT-SLIDING-TOP();
+}
+
+
+.CONTENT-SLIDING(){
+    0%   {
+        opacity: 0;
+        .translate(-3rem, 0);
+    }
+    100% {
+        opacity: 1;
+        .translate(0, 0);
+    }
+}
+@-webkit-keyframes CONTENT-SLIDING {
+    .CONTENT-SLIDING();
+}
+@-moz-keyframes CONTENT-SLIDING {
+    .CONTENT-SLIDING();
+}
+@-o-keyframes CONTENT-SLIDING {
+    .CONTENT-SLIDING();
+}
+@keyframes CONTENT-SLIDING {
+    .CONTENT-SLIDING();
+}
+
+
+.BACKGROUND-SCALING-LOOP(){
+    0%, 100%   { .scale(1); }
+    50% { .scale(1.2); }
+}
+@-webkit-keyframes BACKGROUND-SCALING-LOOP {
+    .BACKGROUND-SCALING-LOOP();
+}
+@-moz-keyframes BACKGROUND-SCALING-LOOP {
+    .BACKGROUND-SCALING-LOOP();
+}
+@-o-keyframes BACKGROUND-SCALING-LOOP {
+    .BACKGROUND-SCALING-LOOP();
+}
+@keyframes BACKGROUND-SCALING-LOOP {
+    .BACKGROUND-SCALING-LOOP();
+}
+
+.BACKGROUND-SLIDING-LOOP(){
+    0%, 100%   {
+        .transform( scale(1.3) translate(0,0) );
+    }
+    50% {
+        .transform( scale(1.3) translate(-5rem ,0) );
+    }
+}
+@-webkit-keyframes BACKGROUND-SLIDING-LOOP {
+    .BACKGROUND-SLIDING-LOOP();
+}
+@-moz-keyframes BACKGROUND-SLIDING-LOOP {
+    .BACKGROUND-SLIDING-LOOP();
+}
+@-o-keyframes BACKGROUND-SLIDING-LOOP {
+    .BACKGROUND-SLIDING-LOOP();
+}
+@keyframes BACKGROUND-SLIDING-LOOP {
+    .BACKGROUND-SLIDING-LOOP();
+}

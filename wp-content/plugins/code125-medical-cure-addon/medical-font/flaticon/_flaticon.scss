@@ -1,0 +1,209 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 13/04/2017 02:08
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-molar-crown:before { content: "\f100"; }
+.flaticon-molar-3:before { content: "\f101"; }
+.flaticon-molar-2:before { content: "\f102"; }
+.flaticon-molar-1:before { content: "\f103"; }
+.flaticon-gum:before { content: "\f104"; }
+.flaticon-molar:before { content: "\f105"; }
+.flaticon-premolar:before { content: "\f106"; }
+.flaticon-teeth:before { content: "\f107"; }
+.flaticon-implants:before { content: "\f108"; }
+.flaticon-pills:before { content: "\f109"; }
+.flaticon-2-pills:before { content: "\f10a"; }
+.flaticon-medicine-1:before { content: "\f10b"; }
+.flaticon-medical:before { content: "\f10c"; }
+.flaticon-eye-1:before { content: "\f10d"; }
+.flaticon-science-1:before { content: "\f10e"; }
+.flaticon-science:before { content: "\f10f"; }
+.flaticon-epidermis:before { content: "\f110"; }
+.flaticon-pimples:before { content: "\f111"; }
+.flaticon-head:before { content: "\f112"; }
+.flaticon-throat:before { content: "\f113"; }
+.flaticon-x-ray-2:before { content: "\f114"; }
+.flaticon-lungs-2:before { content: "\f115"; }
+.flaticon-x-ray-of-bones:before { content: "\f116"; }
+.flaticon-x-ray-1:before { content: "\f117"; }
+.flaticon-mother-with-baby-in-arms:before { content: "\f118"; }
+.flaticon-baby-with-diaper:before { content: "\f119"; }
+.flaticon-patient:before { content: "\f11a"; }
+.flaticon-rehabilitation:before { content: "\f11b"; }
+.flaticon-first-aid-kit:before { content: "\f11c"; }
+.flaticon-heart-1:before { content: "\f11d"; }
+.flaticon-doctor-1:before { content: "\f11e"; }
+.flaticon-cardiogram-and-heart:before { content: "\f11f"; }
+.flaticon-heart:before { content: "\f120"; }
+.flaticon-transport-1:before { content: "\f121"; }
+.flaticon-transport:before { content: "\f122"; }
+.flaticon-blood:before { content: "\f123"; }
+.flaticon-health-care:before { content: "\f124"; }
+.flaticon-ambulance:before { content: "\f125"; }
+.flaticon-nurse-1:before { content: "\f126"; }
+.flaticon-wheelchair-2:before { content: "\f127"; }
+.flaticon-wheelchair-1:before { content: "\f128"; }
+.flaticon-lungs-1:before { content: "\f129"; }
+.flaticon-ear:before { content: "\f12a"; }
+.flaticon-dentist:before { content: "\f12b"; }
+.flaticon-hospital-bed:before { content: "\f12c"; }
+.flaticon-nurse:before { content: "\f12d"; }
+.flaticon-prescription:before { content: "\f12e"; }
+.flaticon-hospital:before { content: "\f12f"; }
+.flaticon-lungs:before { content: "\f130"; }
+.flaticon-medicine:before { content: "\f131"; }
+.flaticon-wheelchair:before { content: "\f132"; }
+.flaticon-dna:before { content: "\f133"; }
+.flaticon-bone:before { content: "\f134"; }
+.flaticon-eye:before { content: "\f135"; }
+.flaticon-weighing-scale:before { content: "\f136"; }
+.flaticon-doctor:before { content: "\f137"; }
+.flaticon-tooth:before { content: "\f138"; }
+.flaticon-stomach:before { content: "\f139"; }
+.flaticon-emergency-call:before { content: "\f13a"; }
+.flaticon-syringe:before { content: "\f13b"; }
+.flaticon-x-ray:before { content: "\f13c"; }
+.flaticon-treatment:before { content: "\f13d"; }
+.flaticon-magnifying-glass-1:before { content: "\f13e"; }
+.flaticon-technology-2:before { content: "\f13f"; }
+.flaticon-plus-symbol:before { content: "\f140"; }
+.flaticon-check:before { content: "\f141"; }
+.flaticon-technology-1:before { content: "\f142"; }
+.flaticon-checkmark-outlined-circular-button:before { content: "\f143"; }
+.flaticon-symbol:before { content: "\f144"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f145"; }
+.flaticon-quotes:before { content: "\f146"; }
+.flaticon-interface-1:before { content: "\f147"; }
+.flaticon-next:before { content: "\f148"; }
+.flaticon-magnifying-glass:before { content: "\f149"; }
+.flaticon-placeholder:before { content: "\f14a"; }
+.flaticon-calendar-1:before { content: "\f14b"; }
+.flaticon-add:before { content: "\f14c"; }
+.flaticon-plus:before { content: "\f14d"; }
+.flaticon-view:before { content: "\f14e"; }
+.flaticon-calendar:before { content: "\f14f"; }
+.flaticon-multimedia:before { content: "\f150"; }
+.flaticon-technology:before { content: "\f151"; }
+.flaticon-clock-1:before { content: "\f152"; }
+.flaticon-interface:before { content: "\f153"; }
+.flaticon-clock:before { content: "\f154"; }
+    
+    $font-Flaticon-molar-crown: "\f100";
+    $font-Flaticon-molar-3: "\f101";
+    $font-Flaticon-molar-2: "\f102";
+    $font-Flaticon-molar-1: "\f103";
+    $font-Flaticon-gum: "\f104";
+    $font-Flaticon-molar: "\f105";
+    $font-Flaticon-premolar: "\f106";
+    $font-Flaticon-teeth: "\f107";
+    $font-Flaticon-implants: "\f108";
+    $font-Flaticon-pills: "\f109";
+    $font-Flaticon-2-pills: "\f10a";
+    $font-Flaticon-medicine-1: "\f10b";
+    $font-Flaticon-medical: "\f10c";
+    $font-Flaticon-eye-1: "\f10d";
+    $font-Flaticon-science-1: "\f10e";
+    $font-Flaticon-science: "\f10f";
+    $font-Flaticon-epidermis: "\f110";
+    $font-Flaticon-pimples: "\f111";
+    $font-Flaticon-head: "\f112";
+    $font-Flaticon-throat: "\f113";
+    $font-Flaticon-x-ray-2: "\f114";
+    $font-Flaticon-lungs-2: "\f115";
+    $font-Flaticon-x-ray-of-bones: "\f116";
+    $font-Flaticon-x-ray-1: "\f117";
+    $font-Flaticon-mother-with-baby-in-arms: "\f118";
+    $font-Flaticon-baby-with-diaper: "\f119";
+    $font-Flaticon-patient: "\f11a";
+    $font-Flaticon-rehabilitation: "\f11b";
+    $font-Flaticon-first-aid-kit: "\f11c";
+    $font-Flaticon-heart-1: "\f11d";
+    $font-Flaticon-doctor-1: "\f11e";
+    $font-Flaticon-cardiogram-and-heart: "\f11f";
+    $font-Flaticon-heart: "\f120";
+    $font-Flaticon-transport-1: "\f121";
+    $font-Flaticon-transport: "\f122";
+    $font-Flaticon-blood: "\f123";
+    $font-Flaticon-health-care: "\f124";
+    $font-Flaticon-ambulance: "\f125";
+    $font-Flaticon-nurse-1: "\f126";
+    $font-Flaticon-wheelchair-2: "\f127";
+    $font-Flaticon-wheelchair-1: "\f128";
+    $font-Flaticon-lungs-1: "\f129";
+    $font-Flaticon-ear: "\f12a";
+    $font-Flaticon-dentist: "\f12b";
+    $font-Flaticon-hospital-bed: "\f12c";
+    $font-Flaticon-nurse: "\f12d";
+    $font-Flaticon-prescription: "\f12e";
+    $font-Flaticon-hospital: "\f12f";
+    $font-Flaticon-lungs: "\f130";
+    $font-Flaticon-medicine: "\f131";
+    $font-Flaticon-wheelchair: "\f132";
+    $font-Flaticon-dna: "\f133";
+    $font-Flaticon-bone: "\f134";
+    $font-Flaticon-eye: "\f135";
+    $font-Flaticon-weighing-scale: "\f136";
+    $font-Flaticon-doctor: "\f137";
+    $font-Flaticon-tooth: "\f138";
+    $font-Flaticon-stomach: "\f139";
+    $font-Flaticon-emergency-call: "\f13a";
+    $font-Flaticon-syringe: "\f13b";
+    $font-Flaticon-x-ray: "\f13c";
+    $font-Flaticon-treatment: "\f13d";
+    $font-Flaticon-magnifying-glass-1: "\f13e";
+    $font-Flaticon-technology-2: "\f13f";
+    $font-Flaticon-plus-symbol: "\f140";
+    $font-Flaticon-check: "\f141";
+    $font-Flaticon-technology-1: "\f142";
+    $font-Flaticon-checkmark-outlined-circular-button: "\f143";
+    $font-Flaticon-symbol: "\f144";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f145";
+    $font-Flaticon-quotes: "\f146";
+    $font-Flaticon-interface-1: "\f147";
+    $font-Flaticon-next: "\f148";
+    $font-Flaticon-magnifying-glass: "\f149";
+    $font-Flaticon-placeholder: "\f14a";
+    $font-Flaticon-calendar-1: "\f14b";
+    $font-Flaticon-add: "\f14c";
+    $font-Flaticon-plus: "\f14d";
+    $font-Flaticon-view: "\f14e";
+    $font-Flaticon-calendar: "\f14f";
+    $font-Flaticon-multimedia: "\f150";
+    $font-Flaticon-technology: "\f151";
+    $font-Flaticon-clock-1: "\f152";
+    $font-Flaticon-interface: "\f153";
+    $font-Flaticon-clock: "\f154";

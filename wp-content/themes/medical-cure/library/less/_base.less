@@ -1,0 +1,447 @@
+/* Table Of Contents */
+/* -----------------------------------------------
+
+    01- Base Settings
+    02- Headers
+    03- Menus
+    04- Mobile nav
+    05- Blog
+    06- Sidebar
+    07- Elements
+        07-01- Top Bars
+        07-02- Social Icons
+        07-03- Titles
+        07-04- Search
+        07-05- Forms
+        07-06- Buttons
+        07-07- Pagination
+        07-08- Tabs
+        07-09- Accordion
+        07-10- Backgrounds
+        07-11- 404
+        07-12- Typography
+    08- Layouts
+        08-01- Pgae Info
+        08-02- Slider
+        08-03- Banners
+        08-04- Welcome
+        08-05- About us
+        08-06- Services
+        08-07- Departments
+        08-08- Staff
+        08-09- Story
+        08-10- Appointment
+        08-11- Call to an Action
+        08-12- Clients
+        08-13- Subscribe
+        08-14- Gallery
+        08-15- Testimonials
+        08-16- Numbers
+        08-17- Working Hours
+        08-18- Pricing
+        08-19- User Control
+        08-20- Job List
+        08-21- Article
+        08-22- Singles
+        08-23- Contactus
+    09- Footer
+    10- Arabic Version
+
+
+   ------------------------------------------------
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+html,body {
+	position: relative;
+    height: 100%;
+}
+body {
+	font-family: @defaultFont;
+	background: @whiteColor;
+	color: @bodyTextColor;
+    font-size: 1.4rem;
+    line-height: @defaultLhi;
+
+}
+//body
+//
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: @headingFont;
+    line-height: @headingLhi;
+    color: @headingColor;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    a{
+        color: @headingColor;
+        font-size: inherit;
+        .transition();
+        &:hover{
+            color: #000;
+        }
+    }
+	//strong
+    //span
+}
+h5, h6 {
+    letter-spacing: -0.01em;
+    line-height:1.9;
+}
+h1 {font-size: 6.4rem;}
+h2 {font-size: 4.8rem;}
+h3 {
+    font-size: 3.6rem;
+    letter-spacing: -1px;
+}
+h4 {font-size: 2.4rem;}
+h5 {font-size: 2rem;}
+h6 {font-size: 1.8rem;}
+// End Of Heading
+//
+p {
+	font-size: 1.5rem;
+    color: @bodyTextColor;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+//p
+//
+a,ul,ol,li li {
+   font-size: 1.4rem;
+}
+a {
+    color: @accentColor;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: @accentColor;
+        text-decoration: none;
+    }
+}
+//a
+//
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+//ul & ol
+//
+fieldset {
+    margin: 0;
+    border: 0.1rem solid @lightColor;
+    padding: 1.5rem;
+}
+legend {
+    border: 0;
+    width: inherit;
+    font-size: 1.4rem;
+    color: @headingDarkGray;
+    margin: 0;
+}
+input,textarea,select {
+    padding: 1.4rem;
+    border-radius: 2px;
+    line-height: 2;
+    font-size: 1.4rem;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    text-transform: none;
+    background: none;
+    border: 1px solid #e1e4e8;
+
+    &::-webkit-input-placeholder {
+        color: @GrayColor;
+        font-size: 1.4rem;
+    }
+
+    &:-ms-input-placeholder {
+        color: @GrayColor;
+        font-size: 1.4rem;
+    }
+
+    &::-moz-placeholder { // Firefox 19+ /
+        color: @GrayColor;
+        font-size: 1.4rem;
+        opacity: 1;
+    }
+
+    &:-moz-placeholder { // Firefox 18- /
+        color: @GrayColor;
+        font-size: 1.4rem;
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    display: inline-block;
+    width: initial;
+}
+label{
+    font-weight: 400;
+}
+//input & textarea
+
+button {
+    background: #3f91e6;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    padding: 0.7rem 2rem;
+    font-size: 1.4rem;
+
+
+    &:hover,
+    &:focus {
+        outline: 0;
+        color: @whiteColor;
+    }
+}
+//button
+//
+hr {
+    background: transparent;
+    border: 0;
+    height: 0.1rem;
+    border-bottom: @btnBorder;
+    border-color: @blockqBorder;
+    margin-bottom: 2rem;
+}
+//hr
+//
+blockquote {
+    color: @darkColor;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2.2rem;
+    border-left: 0.4rem solid @blockqBorder;
+    font-style: italic;
+    line-height: 2.8rem;
+}
+//blockquote
+//
+pre {
+    background: @blockqBorder;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-bottom:1.5rem;
+    padding: 1.5rem;
+    overflow: auto;
+    max-width: 100%;
+    border: 0;
+    border-radius: 0;
+}
+//Pre
+//
+abbr, acronym {
+    border-bottom: 0.1rem dotted @lightColor;
+    cursor: help;
+}
+abbr[title] {
+    border-bottom: 0.1rem dotted;
+}
+i {
+    font-style: normal;
+}
+section {
+    padding: @padSection;
+    &.entry-content{
+        padding: 0;
+        min-height: 1px;
+    }
+}
+
+//section
+//
+
+.c5-no-padding {
+    padding: 0 !important;
+
+}
+.c5-no-border {
+    border :0 !important;
+}
+.c5-pad-t {
+    padding-top: 8rem !important;
+}
+.c5-pad-60 {
+    padding-bottom: 5.4rem !important;
+}
+.mar-47 {
+    margin-top: 4.7rem !important;
+}
+.mar-b {
+    margin-bottom: 3rem;
+}
+.c5-no-mar-t {
+    margin-top: 0 !important;
+}
+.c5-no-spaces {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.c5-space-30{
+    height: 3rem;
+}
+.c5-space-60{
+    height: 6rem;
+}
+.c5-space-90{
+    height: 9rem;
+}
+.c5-space-400 {
+    height: 40rem;
+    background: #f1f1f1;
+}
+.c5-space-100 {
+    height: 10rem;
+    background: @lightColor;
+}
+.c5-space {
+    height: 25rem;
+    background: @lightColor;
+}
+.text-up {
+    text-transform: uppercase;
+}
+.c5-v3-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+    .transition(0.2s);
+    background: @whiteColor;
+}
+
+.c5-accent-background{
+    background: @accentColor;
+    &.c5-dark-background{
+        background: @accentColor;
+    }
+}
+.c5-hide-element {
+    visibility: hidden;
+    margin: 0 !important;
+    line-height: 0 !important;
+    padding: 0 !important;
+}
+
+.c5-custom-space{
+    display: block;
+    min-height: 3rem;
+}
+
+
+.c5-heading{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 4.5rem;
+    &.c5-heading-layout-left{
+        text-align: left;
+        .c5-diamond{
+            margin: 0;
+            span{
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    }
+    &.c5-heading-layout-small{
+        h2,h3,h4{
+            font-size: 2.8rem;
+        }
+    }
+    h2,h3,h4{
+        font-size: 3.8rem;
+        font-weight: 600;
+        line-height: 1;
+        margin-bottom: 3rem;
+
+    }
+    .c5-diamond{
+        position: relative;;
+        display: block;
+        width: 0px;
+        margin: auto;
+        span{
+            &:before, &:after{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 7rem;
+                height: 2px;
+                background: @accentColor;
+                bottom: 0.9rem;
+
+            }
+            &:before{
+                left: -7.5rem;
+            }
+            &:after{
+                right: -8.5rem;
+            }
+        }
+        &:before, &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 50%;
+        }
+        &:before{
+            border-left: 0.5rem solid transparent;
+            border-bottom: 0.5rem solid @accentColor;
+            border-right: 0.5rem solid transparent;
+            border-top: 0.5rem solid transparent;
+            bottom: 10px;
+        }
+        &:after{
+            border-left: 0.5rem solid transparent;
+            border-bottom: 0.5rem solid transparent;
+            border-right: 0.5rem solid transparent;
+            border-top: 0.5rem solid @accentColor;
+            bottom: 0;
+        }
+    }
+}
+
+.c5-content{
+    ul, ol{
+        .fa{
+            color: @accentColor;
+            margin-right: 1.5rem;
+        }
+    }
+}
+
+.c5-icon{
+    &:before{
+        font-size: inherit;
+        margin: 0;
+    }
+}
+.c5-main-blog{
+    padding: 0 0 6rem;
+}

@@ -1,0 +1,116 @@
+
+.c5-login-full {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    .c5-content {
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        display: table;
+    }
+    .c5-social-btns {
+            background: @whiteColor;
+            padding: 1.5rem;
+            overflow: hidden;
+            li {
+                margin-bottom: 0.5rem;
+
+                &:first-child {
+                    margin-top: 0.5rem;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    display: block;
+                    width: 100%;
+                    padding: 1rem;
+                    color: @whiteColor;
+
+                    .fa {
+                        background: @whiteColor;
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        border-radius: 50%;
+                        color: @accentColor;
+                        line-height: 2.7rem;
+                        margin-right: 1.5rem;
+                    }
+
+                    &.c5-default {background: @headingDarkGray;}
+                    &.c5-facebook {background: @faceC;}
+                    &.c5-twitter {background: @tweetC;}
+                    &.c5-google {background: @googC;}
+                }
+            }
+        }
+    .c5-con-data {
+        display: table-cell;
+        position:relative;
+        vertical-align:middle;
+        text-align:center;
+
+        .c5-title {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+
+            h5 {
+                color: @whiteColor;
+                margin-bottom: 0;
+            }
+        }
+        .c5-log-reg {
+            max-width: 80rem;
+            margin: 0 auto;
+            position: relative;
+        }
+        .c5-form,
+        .c5-register {
+            padding: 3rem;
+            float: left;
+            width: 50%;
+            background: @lightColor;
+            text-align: left;
+            min-height: 26rem;
+
+            button {
+                width: 100%;
+            }
+        }
+
+        .c5-form {
+            background: @whiteColor;
+        }
+
+
+    }
+
+    &.c5-registration {
+
+        .c5-form,
+        .c5-register,
+        .c5-title {
+            width: 60rem;
+            margin: auto;
+            float: none;
+        }
+        .c5-error{
+            padding: 10px;
+            border: 1px solid #B71C1C;
+            background: #FFEBEE;
+            color: #B71C1C;
+            p{
+                margin: 0;
+            }
+            margin-bottom: 15px;;
+        }
+
+
+
+
+    }
+}

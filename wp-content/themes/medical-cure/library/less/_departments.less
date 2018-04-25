@@ -1,0 +1,56 @@
+
+.c5-department {
+    position: relative;
+    display: block;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    .c5-icon{
+        font-size: 6.4rem !important;
+        line-height: 1 !important;;
+        color: @accentColor;
+        display: block;
+        margin: 0 auto 3rem;
+        .transition();
+        &::before{
+            font-size: inherit;
+        }
+    }
+    a.c5-btn-theme.btn{
+        display: table;
+        margin: 0 auto;
+        border-color: rgba(255,255,255,0.2);
+    }
+    .c5-department-back,.c5-department-front{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 3rem;
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+        .transition();
+    }
+    .c5-department-back{
+        background: @accentColor;
+        opacity: 0;
+        a.c5-btn-theme{
+            &:hover{
+                background: #fff;
+            }
+        }
+    }
+    .c5-department-front{
+        border:1px solid rgba(0,0,0,0.09);
+    }
+    &:hover{
+        .c5-department-front{
+            opacity: 0;
+        }
+        .c5-department-back{
+            opacity: 1;
+        }
+    }
+}

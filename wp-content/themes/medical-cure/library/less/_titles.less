@@ -1,0 +1,202 @@
+
+.c5-title-1 {
+    position: relative;
+    text-align: center;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -2rem;
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        background: @lightColor;
+        width: 15.5rem;
+        height: 0.2rem;
+    }
+
+    h2 {
+        &:after,
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-right: auto;
+            margin-left: auto;
+            background: @accentColor;
+        }
+        &:before {
+            bottom: -2rem;
+            width: 8rem;
+            height: 0.2rem;
+            z-index: 1;
+        }
+        &:after {
+            bottom: -2.1rem;
+            width: 5rem;
+            height: 0.5rem;
+            border-radius: 0.5rem;
+            z-index: 2;
+        }
+
+    }
+}//title-1
+ //
+.c5-title-2 {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -2rem;
+        left: 0;
+        background: @lightColor;
+        width: 100%;
+        height: 0.2rem;
+    }
+
+    h2 {
+        &:after,
+        &:before {
+            content: '';
+            position: absolute;
+            background: @accentColor;
+        }
+        &:before {
+            bottom: -2rem;
+            width: 8rem;
+            height: 0.2rem;
+            z-index: 1;
+        }
+        &:after {
+            bottom: -2.1rem;
+            left: 1.5rem;
+            width: 5rem;
+            height: 0.5rem;
+            border-radius: 0.5rem;
+            z-index: 2;
+        }
+
+    }
+}//title-2
+ //
+.c5-title-3 {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -2rem;
+        left: 0;
+        background: @lightColor;
+        width: 15rem;
+        height: 0.2rem;
+    }
+
+    h2 {
+        &:after,
+        &:before {
+            content: '';
+            position: absolute;
+            background: @accentColor;
+        }
+        &:before {
+            bottom: -2rem;
+            width: 6rem;
+            height: 0.2rem;
+            z-index: 1;
+        }
+        &:after {
+            bottom: -2.1rem;
+            left: 0;
+            width: 5rem;
+            height: 0.5rem;
+            border-radius: 0.5rem;
+            z-index: 2;
+        }
+
+    }
+}//title-3
+ //
+.c5-middle-title {
+    text-align: center;
+            position: relative;
+            margin-bottom: 4rem;
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: -1.5rem;
+                left: 0;
+                right: 0;
+                margin-right: auto;
+                margin-left: auto;
+                width: 5.5rem;
+                height: 0.2rem;
+                background: @accentColor;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: -1.7rem;
+                left: 4.5rem;
+                right: 0;
+                margin-right: auto;
+                margin-left: auto;
+                width: 5rem;
+                height: 0.6rem;
+                border: 0.1rem solid @accentColor;
+            }
+
+            h2 {
+                margin-bottom: 0.6rem;
+                color: @accentColor;
+            }
+            span {
+
+                font-size: 1.4rem;
+            }
+        }
+.c5-left-title {
+        position: relative;
+        margin-bottom: 3.5rem;
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -1.5rem;
+            left: 0;
+            width: 7rem;
+            height: 0.2rem;
+            background: @accentColor;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: -1.7rem;
+            left: 4.5rem;
+            width: 5rem;
+            height: 0.6rem;
+            border: 0.1rem solid @accentColor;
+        }
+
+        h4 {
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 0.7rem;
+        }
+        span {
+
+            font-size: 1.4rem;
+        }
+    }
+
+    h3.title{
+        display: block;
+        line-height: 1;
+        padding: 1.5rem 2rem;
+        background: #f1f6fa;
+        font-size: 1.6rem;
+        margin: 0 0 3rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }

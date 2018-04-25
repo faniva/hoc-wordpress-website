@@ -1,0 +1,142 @@
+
+.c5-topbar {
+
+	background: @accentColor;
+	max-height: 4rem;
+	overflow: hidden;
+
+	.c5-tb-left,
+	.c5-tb-right {
+		li {
+			display: inline-block;
+			line-height: 4rem;
+
+			a {
+				display: block;
+				color: @whiteColor;
+
+			}
+		}
+	}//
+	 //
+	.c5-tb-left {
+		p {
+
+			line-height: 4rem;
+			span {
+				margin-right: 0.5rem;
+			}
+		}
+		li {
+			margin-right: 2rem;
+			a {
+				span {
+					margin-right: 1rem;
+					.transition(.2s);
+				}
+				&:hover,
+				&:focus {
+					span {
+						color: @headingDarkGray;
+						-webkit-transition: all .2s ease-in-out;
+    					-o-transition: all .2s ease-in-out;
+    					transition: all .2s ease-in-out;
+					}
+				}
+			}
+		}
+	}// topbar-left
+	 //
+	.c5-tb-right {
+		margin-right: 0.5rem;
+		li {
+			width: 4rem;
+			text-align: center;
+			margin-right: -0.4rem;
+			a {
+				&:hover,
+				&:focus {
+					background: @whiteColor;
+					color: @accentColor;
+				}
+			}
+		}
+		&.c5-white {
+			li {
+				a {
+					color: @GrayColor;
+					line-height: inherit;
+					width: inherit;
+					height: inherit;
+					&:hover,
+					&:focus {
+						background: @accentColor;
+						color: @whiteColor;
+					}
+				}
+			}
+		}
+	}// topbar-right
+	 //
+	.c5-call-head {
+		display: inline-block;
+
+	}
+	&.c5-bg-white {
+		.c5-tb-left {
+			li {
+				color: @GrayColor;
+
+				span {
+					margin-right: 0.5rem;
+				}
+				i {
+					font-style: normal;
+
+				}
+			}
+		}
+	}
+	&.c5-general {
+		height: auto;
+		overflow: visible;
+
+		.c5-right-menu {
+			line-height: 4rem;
+			.c5-sh-cart {
+				margin-left: 1.5rem;
+				a {
+					color: @headingDarkGray;
+				}
+			}
+		}
+		.c5-badge {
+			background: @whiteColor;
+		}
+		.c5-toll-free {
+			p {
+
+				margin-bottom: 0;
+				line-height: 4rem;
+			}
+		}
+	}
+
+	.c5-btn-theme {
+		font-size: 1.2rem;
+		padding: 1.2rem 1.5rem;
+		background: @accentColor;
+		border: 0;
+		border-radius: 0;
+		color: @whiteColor;
+		span {
+			padding-right: 1rem;
+		}
+		&:hover,
+		&:focus {
+			background: @whiteColor;
+			color: @headingDarkGray;
+		}
+	}
+}// topbar
+ //

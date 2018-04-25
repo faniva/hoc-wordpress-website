@@ -1,0 +1,446 @@
+
+.c5-vmv {
+    background: @lightColor;
+    .c5-vision,
+    .c5-mission,
+    .c5-value {
+        span {
+            color: @whiteColor;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            width: 5rem;
+            height: 5rem;
+            background: @accentColor;
+            line-height: 5rem;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+        }
+        &:hover {
+            span {
+                background: transparent;
+                font-size: 3rem;
+                color: @accentColor;
+                -webkit-transition: all .2s ease-in-out;
+                -o-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
+            }
+        }
+    }
+
+    &.c5-vmv-alt {
+        .c5-vision,
+        .c5-mission,
+        .c5-value {
+            position: relative;
+            height: 25rem;
+            margin-bottom: 3rem;
+            overflow: hidden;
+
+
+            h3 {
+                color: @whiteColor;
+                position: relative;
+                z-index: 1;
+                top: 40%;
+                -webkit-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+            p,a {
+                
+                
+            }
+            p {
+                margin-top: 7rem;
+                padding: 3rem;
+                padding-bottom: 0;
+                margin-bottom: 1rem;
+                color: @lightGrayColor;
+            }
+            a {
+                color: @whiteColor;
+
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+            }
+            .c5-vmv-over {
+                position: absolute;
+                opacity: 0;
+                left: 0;
+                top: 1rem;
+                right: 0;
+                bottom: 0;
+                background: transparent;
+                -webkit-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+
+            }
+
+            &:hover {
+                h3 {
+                    top: 15%;
+                    -webkit-transition: all 0.4s ease-in-out;
+                    -o-transition: all 0.4s ease-in-out;
+                    transition: all 0.4s ease-in-out;
+                }
+
+                .c5-vmv-over {
+                    opacity: 1;
+                    z-index: 2;
+                    top: 0;
+                    -webkit-transition: all 0.4s ease-in-out;
+                    -o-transition: all 0.4s ease-in-out;
+                    transition: all 0.4s ease-in-out;
+
+                   
+                }
+            }
+        }
+
+        &.c5-vmv-solid {
+
+            .c5-vision {
+                background: @faceC;
+            }
+            .c5-mission {
+                background: @tweetC;
+            }
+            .c5-value {
+                background: @linC;
+            }
+        }
+    }
+
+}//Vision, Mission, Value
+ //
+.c5-vmv-2 {
+    .row {
+        margin: 0;
+        .col-md-4 {
+            padding: 0;
+        }
+    }
+    .c5-vision,
+    .c5-mission,
+    .c5-value {
+        
+        position: relative;
+        overflow: hidden;
+        background: black;
+        min-height: 30rem;
+        
+
+        .con-mid {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            
+
+            span {
+                position: absolute;
+                top: 5rem;
+                left: 0;
+                right: 0;
+                margin-right: auto;
+                margin-left: auto;
+                width: 5rem;
+                height: 5rem;
+                background: @whiteColor;
+                font-size: 2rem;
+                line-height: 5rem;
+            }
+
+            &:before {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                height: 100%;
+            }
+            .c5-h {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 3rem;
+                    max-width: 88%;
+                    margin: auto;
+                    margin-left: -0.3rem;
+                    border: 0.1rem solid rgba(243, 243, 243, 0.25);
+                    position: relative;
+
+                    i {
+                        -webkit-transition: all .2s ease-in-out;
+                        -o-transition: all .2s ease-in-out;
+                        transition: all .2s ease-in-out;
+                        &.c5-rt {
+                            position: absolute;
+                            top: 0.6rem;
+                            right: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-right: 0.1rem solid @lightColor;
+                            border-top: 0.1rem solid @lightColor;
+                            opacity: 0;
+                        }
+                            &.c5-lb {
+                            position: absolute;
+                            bottom: 0.6rem;
+                            left: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-left: 0.1rem solid @lightColor;
+                            border-bottom: 0.1rem solid @lightColor;
+                            opacity: 0;
+                        }
+                    }
+
+                    h4 {
+                        color: @whiteColor;
+                        text-transform: uppercase;
+                    }
+                }
+                p {
+                    
+                    color: @lightColor;
+                    
+                    margin-bottom: 0;
+                }
+                a {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    text-indent: 200%;
+                    opacity: 0;
+                }
+            }
+        &:hover,
+        &:focus {
+            .c5-h {
+                
+                i {
+                    -webkit-transition: all .2s ease-in-out;
+                    -o-transition: all .2s ease-in-out;
+                    transition: all .2s ease-in-out;
+                    &.c5-rt {
+                        width: 4rem;
+                        height: 4rem;
+                        opacity: 1;
+                    }
+                    &.c5-lb {
+                        width: 4rem;
+                        height: 4rem;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+    }
+    .c5-vision {
+        background: @faceC;
+    }
+    .c5-mission {
+        background: @tweetC;
+    }
+    .c5-value {
+        background: @linC;
+    }
+
+    &.c5-vmv-alt {
+        
+        .c5-mission,
+        .c5-vision,
+        .c5-value {
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+}
+.c5-vmv-4 {
+
+    .c5-vision,
+    .c5-mission,
+    .c5-value {
+        position: relative;
+        overflow: hidden;
+        min-height: 25rem;
+
+        .con-cor {
+            position: relative;
+            overflow: hidden;
+            min-height: 25rem;
+
+            .con-mid {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    height: 100%;
+                }
+
+                .c5-h {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 3rem;
+                    max-width: 98%;
+                    margin: auto;
+                    margin-left: -0.3rem;
+                    
+                    position: relative;
+
+                    span {
+                        color: @whiteColor;
+                        font-size: 2rem;
+                        margin-bottom: 2rem;
+                        width: 5rem;
+                        height: 5rem;
+                        background: @accentColor;
+                        line-height: 5rem;
+                        -webkit-transition: all .2s ease-in-out;
+                        -o-transition: all .2s ease-in-out;
+                        transition: all .2s ease-in-out;
+                    }
+
+                    i {
+                        -webkit-transition: all .2s ease-in-out;
+                        -o-transition: all .2s ease-in-out;
+                        transition: all .2s ease-in-out;
+                        &.c5-rt {
+                            position: absolute;
+                            top: 0.6rem;
+                            right: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-right: 0.1rem solid @accentColor;
+                            border-top: 0.1rem solid @accentColor;
+                            opacity: 0;
+                        }
+                        &.c5-lb {
+                            position: absolute;
+                            bottom: 0.6rem;
+                            left: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-left: 0.1rem solid @accentColor;
+                            border-bottom: 0.1rem solid @accentColor;
+                            opacity: 0;
+                        }
+                        &.c5-rb {
+                            position: absolute;
+                            bottom: 0.6rem;
+                            right: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-right: 0.1rem solid @accentColor;
+                            border-bottom: 0.1rem solid @accentColor;
+                            opacity: 0;
+                        }
+                        &.c5-lt {
+                            position: absolute;
+                            top: 0.6rem;
+                            left: 0.6rem;
+                            width: 0;
+                            height: 0;
+                            border-left: 0.1rem solid @accentColor;
+                            border-top: 0.1rem solid @accentColor;
+                            opacity: 0;
+                        }
+                    }
+
+                    h4 {
+                        color: @headingDarkGray;
+                        text-transform: uppercase;
+                    }
+                    p {
+                        
+                        
+                        
+                        margin-bottom: 0;
+                    }
+                    a {
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        text-indent: 200%;
+                        opacity: 0;
+                    }
+                }
+
+                &:hover,
+                &:focus {
+                    .c5-h {
+                        span {
+                            background: transparent;
+                            font-size: 3rem;
+                            color: @accentColor;
+                            -webkit-transition: all .2s ease-in-out;
+                            -o-transition: all .2s ease-in-out;
+                            transition: all .2s ease-in-out;
+                        }
+                        i {
+                            -webkit-transition: all .2s ease-in-out;
+                            -o-transition: all .2s ease-in-out;
+                            transition: all .2s ease-in-out;
+                            &.c5-rt {
+                                width: 4rem;
+                                height: 4rem;
+                                opacity: 1;
+                            }
+                            &.c5-lb {
+                                width: 4rem;
+                                height: 4rem;
+                                opacity: 1;
+                            }
+                            &.c5-rb {
+                                width: 4rem;
+                                height: 4rem;
+                                opacity: 1;
+                            }
+                            &.c5-lt {
+                                width: 4rem;
+                                height: 4rem;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+
+.btn {
+    background: transparent;
+    border: 0.1rem solid;
+    display: inline-block;
+    padding: 1.4rem 2.5rem;
+    margin: 0.3rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    background: white;
+    .transition();
+    .fa,.c5-btn-icon{
+        margin-left: 0.5rem;
+        margin-right: 0;
+    }
+    &:hover{
+        background: @accentColor;
+        color:@whiteColor;
+        border-color: @accentColor;
+    }
+    &.inverse{
+        background: @accentColor;
+        color:@whiteColor;
+        border:none;
+        border-color: @accentColor;
+        &:hover{
+            background: #fff;
+            color: @accentColor;
+            border-color: @accentColor;
+        }
+    }
+    &.left{
+        float: left;
+    }
+    &.right{
+        float: right;
+    }
+    &.center{
+        margin: auto;
+        display: table;
+    }
+
+    &.small {
+        padding: 0.7rem 2rem;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    &.large {
+        padding: 2.5rem 4rem;
+        letter-spacing: 0.3rem;
+    }
+
+    &.rounded {
+        border-radius: 5rem;
+    }
+    &.c5-btn-theme {
+        background: transparent;
+        &:hover,
+        &:focus {
+            background: @accentColor;
+            color: @whiteColor;
+        }
+    }
+    &.c5-btn-blue {
+        border-color: @accentColor;
+        color: @accentColor;
+        &:hover,
+        &:focus {
+            background: @accentColor;
+            color: @whiteColor;
+            border-color: @accentColor;
+        }
+    }
+
+    &.c5-btn-red {
+        border-color: @googC;
+        color: @googC;
+        &:hover,
+        &:focus {
+            background: @googC;
+            color: @whiteColor;
+            border-color: @googC;
+        }
+    }
+
+    &.c5-btn-green {
+        border-color: @greenColor;
+        color: @greenColor;
+        &:hover,
+        &:focus {
+            background: @greenColor;
+            color: @whiteColor;
+            border-color: @greenColor;
+        }
+    }
+
+    &.c5-btn-yellow {
+        border-color: @yellowColor;
+        color: @yellowColor;
+        &:hover,
+        &:focus {
+            background: @yellowColor;
+            color: @whiteColor;
+            border-color: @yellowColor;
+        }
+    }
+
+    &.c5-btn-orange {
+        border-color: @orangeColor;
+        color: @orangeColor;
+        &:hover,
+        &:focus {
+            background: @orangeColor;
+            color: @whiteColor;
+            border-color: @orangeColor;
+        }
+    }
+
+    &.c5-btn-white {
+        border-color: @whiteColor;
+        color: @whiteColor;
+        &:hover,
+        &:focus {
+            background: @whiteColor;
+            color: @accentColor;
+            border-color: @whiteColor;
+        }
+    }
+}
+
+
+.c5-deep-dark-bg,
+.c5-dark-background {
+    .c5-btn-theme,
+    .c5-btn-red,
+    .c5-btn-blue,
+    .c5-btn-orange,
+    .c5-btn-green,
+    .c5-btn-yellow {
+        border-color: @whiteColor;
+        color: @whiteColor;
+        &:hover,
+        &:focus {
+            background:  @whiteColor;
+        }
+    }
+
+    .c5-btn-theme {
+        &:hover,
+        &:focus {
+            color: @accentColor;
+        }
+    }
+    .c5-btn-blue {
+        &:hover,
+        &:focus {
+            color: @blueColor;
+        }
+    }
+    .c5-btn-red {
+        &:hover,
+        &:focus {
+            color: @redColor;
+        }
+    }
+    .c5-btn-orange {
+        &:hover,
+        &:focus {
+            color: @orangeColor;
+        }
+    }
+    .c5-btn-green {
+        &:hover,
+        &:focus {
+            color: @greenColor;
+        }
+    }
+    .c5-btn-yellow {
+        &:hover,
+        &:focus {
+            color: @yellowColor;
+        }
+    }
+}
+
+.c5-btn-text {
+    padding: 0;
+}
+
+.c5-button-li {
+  margin: 1rem 0;
+
+  li {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+}

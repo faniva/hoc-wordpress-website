@@ -1,0 +1,39 @@
+.cocoen-drag{
+    box-shadow: 0 10px 20px rgba(0,0,0,.07);
+    &:before {
+        background: #fff;
+        height: 30px;
+        margin-left: -15px;
+        margin-top: -15px;
+        width: 30px;
+        border-radius: 100%;
+        box-shadow: 0 10px 20px rgba(0,0,0,.07);
+    }
+}
+.code125-image-comparison{
+    position: relative;
+    display: block;
+    .before-label,.after-label{
+        position: absolute;
+        top: 1.5rem;
+        line-height: 1;
+        display: block;
+        padding: 1rem 1.5rem;
+        background: @accentColor;
+        z-index: 99;
+        border-radius: 3px;
+        box-shadow: 0 0 20px 1px rgba(6, 6, 6, 0.05);
+        color: #fff;
+        .transition();
+        &:hover{
+            background: rgba(255, 255, 255, 0.8);
+            color: #6d7a8c;
+        }
+    }
+    .before-label{
+        left: 1.5rem;
+    }
+    .after-label{
+        right: 1.5rem;
+    }
+}

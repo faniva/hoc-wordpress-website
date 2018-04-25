@@ -1,0 +1,123 @@
+.code125-gallery{
+    position: relative;
+    
+    &.code125-gallery-layout-2{
+        .code125-gallery-item{
+            padding: 0;
+            .code125-gallery-wrap{
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+            span.title{
+                display: none;
+            }
+        }
+        .code125-gallery-image{
+            &::before{
+                display: none;
+            }
+        }
+        .slick-next{
+            right: 0 !important;
+        }
+    }
+    .code125-gallery-post-big{
+        width: 550px;
+        height: 550px;
+    }
+    .code125-gallery-post-wide{
+        width: 550px;
+        height: 250px;
+    }
+    .code125-gallery-post-tall{
+        width: 250px;
+        height: 550px;
+    }
+    .code125-gallery-post-small{
+        width: 250px;
+        height: 250px;
+    }
+    .code125-gallery-item{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        cursor: pointer;
+        float: left;
+        display: block;
+
+
+        .code125-gallery-wrap{
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 1rem;
+            right: 1rem;
+            bottom: 2rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .code125-gallery-image{
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            .transition(2s);
+
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                .transition(0.7s);
+                background: rgba(0,0,0,0.5);
+            }
+
+        }
+        span.title{
+            display: block;
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.6rem;
+            font-weight: 600;
+            line-height: 1.8;
+            opacity: 0;
+            color: white;
+            .transition(0.6s);
+            .translate(0,-10px);
+        }
+        &:hover{
+            span.title{
+                opacity: 1;
+                .translate(0,0);
+            }
+            .code125-gallery-image{
+                .scale(1.05);
+                &::before{
+                    opacity: 1;
+                }
+            }
+        }
+        &.code125-gallery-post-big{
+            span.title{
+                font-size: 2.4rem;
+            }
+        }
+        &.code125-gallery-post-wide{
+            span.title{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+}
