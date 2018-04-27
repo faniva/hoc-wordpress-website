@@ -11,12 +11,17 @@ $obj = new C5_header();
         </div>
 
         <div class="pull-right">
-
             <?php $obj->social_icons('layout-3'); ?>
         </div>
         <div class="pull-right">
             <?php $obj->get_language_switcher(); ?>
         </div>
+
+        <div class="pull-right">
+            <a href="#" class="patient-area"><i class="c5-header-icon flaticon-doctor-1">&nbsp;</i>Patient Area</a>
+        </div>
+
+
     </div>
 </div>
 
@@ -55,9 +60,19 @@ $obj = new C5_header();
 
         <!-- right-col -->
         <div class="pull-right">
+            <div class="pull-left">
+                <div class="c5-info-top-bar clearfix">
+                    <ul>
+                        <li><a href="tel:+17324834501"><i class="c5-header-icon flaticon-technology-2"></i><span class="title">+1 732-483-4501</span><span class="subtitle">Call Us Today!</span></a></li>
+                        <li><i class="c5-header-icon flaticon-clock-1"></i><span class="title">Mon-Sat: 08am - 7pm</span><span class="subtitle">Sunday: Off</span></li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="pull-right">
                 <?php $obj->header_btn(); ?>
             </div>
+
         </div>
         <!-- ./right-col -->
     </div>
@@ -66,7 +81,7 @@ $obj = new C5_header();
 <!-- ./header -->
 
 <!-- dark-menu -->
-<div class="c5-dark-background c5-header-layout-2  c5-header-layout-3 c5-main-menu-bar c5-accent-background">
+<div class="c5-dark-background c5-header-layout-2 c5-header-layout-3 c5-main-menu-bar c5-accent-background">
 
     <!-- container -->
     <div class="container">

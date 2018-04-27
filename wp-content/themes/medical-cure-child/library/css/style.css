@@ -34,10 +34,35 @@
 /*width: 1290px;*/
 /*}*/
 /*}*/
+.c5-header-layout-5.c5-top-bar a.patient-area {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 7px;
+  display: inline-block;
+  margin-right: 3.5em;
+  padding: 5px 10px;
+  border: .1rem solid #bfbde4;
+  border-radius: 4px;
+}
 header.c5-header.c5-header-layout-2.c5-header-alt {
   padding: 2rem 0;
   background-size: 100% !important;
   background: url('../images/header-bg.jpg') no-repeat center center;
+}
+header.c5-header.c5-header-layout-2.c5-header-alt .c5-info-top-bar .title {
+  font-size: 1.4rem;
+  color: #350e73;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+header.c5-header.c5-header-layout-2.c5-header-alt .c5-info-top-bar .subtitle {
+  color: #000000;
+  opacity: .7;
+}
+header.c5-header.c5-header-layout-2.c5-header-alt .c5-call-head {
+  margin-top: 2rem;
 }
 header.c5-header.c5-header-layout-2.c5-header-alt .c5-call-head .btn {
   background-color: #f69e33;
