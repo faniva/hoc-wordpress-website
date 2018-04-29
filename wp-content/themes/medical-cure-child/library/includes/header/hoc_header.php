@@ -2,30 +2,6 @@
 $obj = new C5_header();
 ?>
 
-<!-- top bar  -->
-<div class="c5-header-layout-5 c5-top-bar">
-    <!-- container -->
-    <div class="container">
-        <div class="pull-left">
-            <?php $obj->header_info(); ?>
-        </div>
-
-        <div class="pull-right">
-            <?php $obj->social_icons('layout-3'); ?>
-        </div>
-        <div class="pull-right">
-            <?php $obj->get_language_switcher(); ?>
-        </div>
-
-        <div class="pull-right">
-            <a href="#" class="patient-area"><i class="c5-header-icon flaticon-doctor-1">&nbsp;</i>Patient Area</a>
-        </div>
-
-
-    </div>
-</div>
-
-
 <!-- header -->
 <header class="c5-header c5-header-layout-2 c5-header-alt">
     <!-- container -->
@@ -67,6 +43,12 @@ $obj = new C5_header();
                         <li><i class="c5-header-icon flaticon-clock-1"></i><span class="title">Mon-Sat: 08am - 7pm</span><span class="subtitle">Sunday: Off</span></li>
                     </ul>
                 </div>
+
+
+                <a href="#" class="patient-area"><i class="c5-header-icon flaticon-doctor-1">&nbsp;</i>Patient Area</a>
+
+                <?php $obj->social_icons('layout-3'); ?>
+
             </div>
 
             <div class="pull-right">

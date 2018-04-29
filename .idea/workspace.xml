@@ -4,10 +4,7 @@
     <list default="true" id="53ed5574-498e-4998-9f9c-8d40f02e9453" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/c5-updates-support" afterPath="$PROJECT_DIR$/wp-content/plugins/c5-updates-support" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/functions.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/css/style.css" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php" afterPath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/less/style.less" afterPath="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/less/style.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,15 +51,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hoc_header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hoc_header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="65" column="202" lean-forward="false" selection-start-line="65" selection-start-column="202" selection-end-line="65" selection-end-column="202" />
+            <state relative-caret-position="66">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#561#567#1#HTML" expanded="true" />
-                <marker date="1524808675162" expanded="true" signature="1120:1330" ph="..." />
-                <marker date="1524808675162" expanded="true" signature="1182:1295" ph="..." />
+                <element signature="e#1588#1594#1#HTML" expanded="true" />
+                <marker date="1525033287484" expanded="true" signature="529:739" ph="..." />
+                <marker date="1525033287484" expanded="true" signature="591:704" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state relative-caret-position="748">
+              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -174,8 +171,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/medical-cure-child/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/js/hoc.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/less/style.less" />
+        <option value="$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php" />
       </list>
     </option>
   </component>
@@ -422,12 +419,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524627028247</updated>
-      <workItem from="1524627029821" duration="51354000" />
+      <workItem from="1524627029821" duration="52372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51354000" />
+    <option name="totallyTimeSpent" value="52372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
@@ -837,18 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="65" column="202" lean-forward="false" selection-start-line="65" selection-start-column="202" selection-end-line="65" selection-end-column="202" />
-          <folding>
-            <element signature="e#561#567#1#HTML" expanded="true" />
-            <marker date="1524808675162" expanded="true" signature="1120:1330" ph="..." />
-            <marker date="1524808675162" expanded="true" signature="1182:1295" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -867,9 +852,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="748">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medical-cure-child/library/includes/header/hoc_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#1588#1594#1#HTML" expanded="true" />
+            <marker date="1525033287484" expanded="true" signature="529:739" ph="..." />
+            <marker date="1525033287484" expanded="true" signature="591:704" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
