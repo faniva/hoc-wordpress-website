@@ -16,7 +16,7 @@ $obj = new C5_header();
 
                 $home_url = apply_filters('c5_logo_url' , esc_url( home_url('/') ) );
 
-                $src = HOC_URI . 'library/images/hoc-logo-opt.svg';
+                $src = HOC_URI . 'library/images/hoc-logo-new.svg';
 
                 $format = '<div class="c5-logo">
                                 <a  href="%s" rel="nofollow">
@@ -36,24 +36,18 @@ $obj = new C5_header();
 
         <!-- right-col -->
         <div class="pull-right">
-            <div class="pull-left">
-                <div class="c5-info-top-bar clearfix">
-                    <ul>
-                        <li><a href="tel:+17324834501"><i class="c5-header-icon flaticon-technology-2"></i><span class="title">+1 732-483-4501</span><span class="subtitle">Call Us Today!</span></a></li>
-                        <li><i class="c5-header-icon flaticon-clock-1"></i><span class="title">Mon-Sat: 08am - 7pm</span><span class="subtitle">Sunday: Off</span></li>
-                    </ul>
-                </div>
-
-
-                <a href="#" class="patient-area"><i class="c5-header-icon flaticon-doctor-1">&nbsp;</i>Patient Area</a>
-
+            <div class="header-top">
+                <ul>
+                    <li><span class="subtitle">Call Us Today!</span> <a href="tel:+17324834501"><i class="c5-header-icon flaticon-technology-2"></i><span class="title">+1 732-483-4501</span></a></li>
+                </ul>
                 <?php $obj->social_icons('layout-3'); ?>
-
             </div>
 
-            <div class="pull-right">
+            <div class="header-bottom">
+                <a href="#" class="patient-area"><i class="c5-header-icon flaticon-doctor-1">&nbsp;</i>Patient Area</a>
                 <?php $obj->header_btn(); ?>
             </div>
+
 
         </div>
         <!-- ./right-col -->

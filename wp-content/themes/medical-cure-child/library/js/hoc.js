@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
     }
 
-    setSliderSize();
+    // setSliderSize();
 
 
 });
@@ -54,28 +54,18 @@ jQuery(window).one('load', function(){
                 this.cacheDom();
                 this.bindEvents();
 
-                this._setSliderSize();
-
             },
 
             bindEvents : function(){
-                $sliderNavItems.on('click', function(e){
-                    var index = $(this).index() + 1;
-                    console.log(index);
-
-                    // Pause slider and switch to slide
-                    slider.revpause()
-                        .revshowslide(index);
 
 
-                })
             },
 
             cacheDom : function(){
                 $sliderNav          =   $('.hoc-slider-nav');
                 $sliderNavItems     =   $sliderNav.children();
                 $heroSlider         =   $('#hero-slider');
-            },
+            }
 
 
         }
@@ -88,21 +78,6 @@ jQuery(window).one('load', function(){
     window.App.init();
 
 });
-
-
-// revapi1.bind("revolution.slide.onloaded",function (e) {
-//     console.log("slider loaded");
-//     alert('slider loaded')
-//
-//
-//
-//
-// });
-//
-
-
-
-
 
 
 

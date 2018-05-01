@@ -24,12 +24,19 @@ class HOC_Page_Info extends C5_Page_Info
                     </div>
 
                     <div class="hoc-slider-nav" role="navigation">
-                        <div><a href="#">Breast Cancer</a></div>
-                        <div><a href="#">Lung Cancer</a></div>
-                        <div><a href="#">Colon Cancer Treatments</a></div>
-                        <div><a href="#">Lymphoma & Meloma Treatments</a></div>
-                        <div><a href="#">Infusion Therapies</a></div>
-                        <div><a href="#">Cancer Molecular Risk Testing</a></div>
+                        <div>
+                            <div class="navigation-title">QUICK LINKS</div>
+                            <ul>
+                                <li class="breast-cancer"><a href="#"><span>Breast Cancer</span></a></li>
+                                <li class="lung-cancer"><a href=""><span>Lung Cancer</span></a></li>
+                                <li class="colon-cancer"><a href=""><span>Colon Cancer Treatments</span></a></li>
+                                <li class="lymphoma"><a href=""><span>Lymphoma & Meloma Treatments</span></a></li>
+                                <li class="infusion"><a href=""><span>Infusion Therapies</span></a></li>
+                                <li class="molecular-risk"><a href=""><span></span>Cancer Molecular Risk Testing</a></li>
+                            </ul>
+                        </div>
+
+
                     </div>
 
                 </div>
